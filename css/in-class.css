@@ -135,7 +135,7 @@ textarea {
 
 
  body {
-   padding:6vw 60px 6vw 6vw;
+   padding:0;
    font-family: monospace;
    color:#545454;
    background-color:#f6f6f6;
@@ -145,6 +145,15 @@ textarea {
 
 
 
+ }
+
+ .in-class-introduction {
+
+ }
+
+ #inclass-nav {
+  background:grey;
+  padding:2em;
  }
 
 
@@ -221,9 +230,6 @@ a:hover {
   position: relative;
 }
 
-.main-content-well {
-  max-width: 32em;
-}
 
 ul {
   list-style: none;
@@ -665,7 +671,7 @@ a.button.active:hover {
 }
 
 .main-content-well {
-  width:70%;
+  width:66%;
 }
 
 

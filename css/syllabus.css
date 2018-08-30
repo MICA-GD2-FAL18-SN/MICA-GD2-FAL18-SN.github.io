@@ -328,12 +328,16 @@ ol li {
 }
 
 
-
-
-ol li:before {
+ol.timeline.week li:before {
     content:"wk. " counter(step-counter);
+}
+
+
+
+ol.timeline li:before {
+    content:counter(step-counter);
     margin-right: 5px;
-    font-size: 60%;
+    font-size: 66%;
     position:absolute;
     text-align: center;
     width:3em;
