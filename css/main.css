@@ -138,7 +138,14 @@ body.mainpage > * {
 
   .classgrid li:hover {
     background-color:#a2f1c1;
-    
+    transform: scale(1.05) rotateZ(-2deg);
+    z-index: 2;
+
+
+  }
+
+   .classgrid li:nth-child(odd):hover {
+    transform: scale(1.05) rotateZ(2deg);
 
 
   }
